@@ -1,0 +1,51 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightgrey;
+}
+h1 {
+
+}
+
+/*div styles*/
+
+.common{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:absolute;
+
+}
+.top{
+    top: 0px;
+    left: 5px;
+    right: 0px;
+
+}
+.middle{
+    top: 850px;
+    left: 5px;
+    right: 0px;
+    
+}
+.bottom{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter {
+    display: block;
+    margin: auto;
+    border: 5px solid gold;
+}
+.resumeheader{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.subbold {
+    font-weight: bold;
+}
